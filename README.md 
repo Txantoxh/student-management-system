@@ -1,0 +1,24 @@
+# Student-Management-System
+
+A Spring Boot REST API for managing students, built using modern Java and backend best practices.
+
+## 🚀 Tech Stack
+- Java 17
+- Spring Boot
+- Spring Data JPA
+- Spring Security
+- PostgreSQL
+- Maven
+- Swagger / OpenAPI
+- JaCoCo (Code Coverage)
+- Git & GitHub
+
+## 📌 Features
+- Create, update, delete, and retrieve student records
+- RESTful API design
+- Layered architecture (Controller, Service, Repository)
+- DTO-based request/response handling
+- Integrated Swagger UI for API documentation
+- Code coverage reporting using JaCoCo
+
+## 🧱 Project Structure
