@@ -1,13 +1,7 @@
 package com.student.management.model;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
 
 @Entity
-@Data
-@NoArgsConstructor
 @Table(name = "sqlda_students")
 
 public class Student {
