@@ -47,4 +47,18 @@ public class StudentController {
                 .status(HttpStatus.CREATED)
                 .body(studentService.createStudent(request));
     }
+    @PatchMapping("/{id}")
+    public ResponseEntity<StudentResponse>patchStudent(
+            @PathVariable long id,
+            @RequestBody com.student.management.dto.StudentPatchRequest request
+            ){
+        return ResponseEntity.ok(studentService.patchStudent(id,request));
+    }
+
+    // DELETE
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteStudent(@PathVariable Long id) {
+        studentService.deleteStudent(id);
+        return ResponseEntity.noContent().build();
+    }
 }
