@@ -35,6 +35,7 @@ public class StudentController {
     }
 
     // ✅ CREATE student
+    // access gitlab token glpat-WtLBs7x8g3KQ5_64Zzzlxm86MQp1Omh3bmY1Cw.01.121wlavqg
     @Operation(summary = "Create a new student")
     @ApiResponses({
             @ApiResponse(responseCode = "201", description = "Student created successfully"),
